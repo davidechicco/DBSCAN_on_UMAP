@@ -1,0 +1,873 @@
+Error in clusGap(x = patients_data_umap$layout, FUNcluster = dbscan, K.max = max(res$cluster),  : 
+  K.max >= 2 is not TRUE
+Calls: clusGap -> stopifnot
+In addition: There were 50 or more warnings (use warnings() to see the first 50)
+Execution halted
+13 0.14 0.15
+[16] 0.16 0.17 0.18 0.19 0.20
+UMAP number of n_neighbors to try': [1]  2  3  4  5  6  7  8  9 10 11 12 13 14 15
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.01
+DBSCAN hyperparameters: epsilon = 0.99 & minimal points = 2
+
+average Silhouette score = 0.956 in the [-1,+1] interval 
+Calinski-Harabasz index = 15242.239 in the [0,+∞) interval
+Dunn index = 0.509 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 17.129 in the [0,+∞) interval
+average Gap statistic = 0.229 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.02
+DBSCAN hyperparameters: epsilon = 0.98 & minimal points = 2
+
+average Silhouette score = 0.972 in the [-1,+1] interval 
+Calinski-Harabasz index = 13491.383 in the [0,+∞) interval
+Dunn index = 7.110 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 29.882 in the [0,+∞) interval
+average Gap statistic = 0.271 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.03
+DBSCAN hyperparameters: epsilon = 0.97 & minimal points = 2
+
+average Silhouette score = 0.921 in the [-1,+1] interval 
+Calinski-Harabasz index = 251.680 in the [0,+∞) interval
+Dunn index = 0.312 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.629 in the [0,+∞) interval
+average Gap statistic = 0.262 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.04
+DBSCAN hyperparameters: epsilon = 0.96 & minimal points = 2
+
+average Silhouette score = 0.758 in the [-1,+1] interval 
+Calinski-Harabasz index = 3.686 in the [0,+∞) interval
+Dunn index = 0.004 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 0.257 in the [0,+∞) interval
+average Gap statistic = 1.022 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.05
+DBSCAN hyperparameters: epsilon = 0.95 & minimal points = 2
+
+average Silhouette score = 0.913 in the [-1,+1] interval 
+Calinski-Harabasz index = 11.187 in the [0,+∞) interval
+Dunn index = 0.050 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 0.291 in the [0,+∞) interval
+average Gap statistic = 0.707 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.06
+DBSCAN hyperparameters: epsilon = 0.94 & minimal points = 2
+
+average Silhouette score = 0.964 in the [-1,+1] interval 
+Calinski-Harabasz index = 8592.966 in the [0,+∞) interval
+Dunn index = 4.905 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 23.073 in the [0,+∞) interval
+average Gap statistic = 0.221 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.07
+DBSCAN hyperparameters: epsilon = 0.93 & minimal points = 2
+
+average Silhouette score = 0.917 in the [-1,+1] interval 
+Calinski-Harabasz index = 2.054 in the [0,+∞) interval
+Dunn index = 0.026 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 0.182 in the [0,+∞) interval
+average Gap statistic = 1.311 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.08
+DBSCAN hyperparameters: epsilon = 0.92 & minimal points = 2
+
+average Silhouette score = 0.917 in the [-1,+1] interval 
+Calinski-Harabasz index = 178.070 in the [0,+∞) interval
+Dunn index = 0.172 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.486 in the [0,+∞) interval
+average Gap statistic = 0.306 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.09
+DBSCAN hyperparameters: epsilon = 0.91 & minimal points = 2
+
+average Silhouette score = 0.952 in the [-1,+1] interval 
+Calinski-Harabasz index = 4669.691 in the [0,+∞) interval
+Dunn index = 2.365 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 9.397 in the [0,+∞) interval
+average Gap statistic = 0.263 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.1
+DBSCAN hyperparameters: epsilon = 0.9 & minimal points = 2
+
+average Silhouette score = 0.849 in the [-1,+1] interval 
+Calinski-Harabasz index = 53.651 in the [0,+∞) interval
+Dunn index = 0.057 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 0.237 in the [0,+∞) interval
+average Gap statistic = 0.298 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.11
+DBSCAN hyperparameters: epsilon = 0.89 & minimal points = 2
+
+average Silhouette score = 0.805 in the [-1,+1] interval 
+Calinski-Harabasz index = 7.035 in the [0,+∞) interval
+Dunn index = 0.004 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 0.230 in the [0,+∞) interval
+average Gap statistic = 0.794 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.12
+DBSCAN hyperparameters: epsilon = 0.88 & minimal points = 2
+
+average Silhouette score = 0.934 in the [-1,+1] interval 
+Calinski-Harabasz index = 1632.805 in the [0,+∞) interval
+Dunn index = 0.835 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 4.274 in the [0,+∞) interval
+average Gap statistic = 0.285 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.13
+DBSCAN hyperparameters: epsilon = 0.87 & minimal points = 2
+
+average Silhouette score = 0.930 in the [-1,+1] interval 
+Calinski-Harabasz index = 2226.420 in the [0,+∞) interval
+Dunn index = 0.705 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 5.165 in the [0,+∞) interval
+average Gap statistic = 0.298 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.14
+DBSCAN hyperparameters: epsilon = 0.86 & minimal points = 2
+
+average Silhouette score = 0.913 in the [-1,+1] interval 
+Calinski-Harabasz index = 150.835 in the [0,+∞) interval
+Dunn index = 0.109 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.245 in the [0,+∞) interval
+average Gap statistic = 0.386 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.15
+DBSCAN hyperparameters: epsilon = 0.85 & minimal points = 2
+
+average Silhouette score = 0.909 in the [-1,+1] interval 
+Calinski-Harabasz index = 621.367 in the [0,+∞) interval
+Dunn index = 0.481 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.486 in the [0,+∞) interval
+average Gap statistic = 0.387 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.16
+DBSCAN hyperparameters: epsilon = 0.84 & minimal points = 2
+
+average Silhouette score = 0.714 in the [-1,+1] interval 
+Calinski-Harabasz index = 30.136 in the [0,+∞) interval
+Dunn index = 0.010 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 0.583 in the [0,+∞) interval
+average Gap statistic = 0.476 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.17
+DBSCAN hyperparameters: epsilon = 0.83 & minimal points = 2
+
+average Silhouette score = 0.856 in the [-1,+1] interval 
+Calinski-Harabasz index = 128.066 in the [0,+∞) interval
+Dunn index = 0.051 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.324 in the [0,+∞) interval
+average Gap statistic = 0.370 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.18
+DBSCAN hyperparameters: epsilon = 0.82 & minimal points = 2
+
+average Silhouette score = 0.882 in the [-1,+1] interval 
+Calinski-Harabasz index = 146.526 in the [0,+∞) interval
+Dunn index = 0.181 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.857 in the [0,+∞) interval
+average Gap statistic = 0.449 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.19
+DBSCAN hyperparameters: epsilon = 0.81 & minimal points = 2
+
+average Silhouette score = 0.852 in the [-1,+1] interval 
+Calinski-Harabasz index = 5924.597 in the [0,+∞) interval
+Dunn index = 0.284 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 6.911 in the [0,+∞) interval
+average Gap statistic = 0.382 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.2
+DBSCAN hyperparameters: epsilon = 0.8 & minimal points = 2
+
+average Silhouette score = 0.909 in the [-1,+1] interval 
+Calinski-Harabasz index = 19.623 in the [0,+∞) interval
+Dunn index = 0.085 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 0.466 in the [0,+∞) interval
+average Gap statistic = 0.542 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.01
+DBSCAN hyperparameters: epsilon = 0.99 & minimal points = 3
+
+average Silhouette score = 0.710 in the [-1,+1] interval 
+Calinski-Harabasz index = 338.559 in the [0,+∞) interval
+Dunn index = 0.370 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.865 in the [0,+∞) interval
+average Gap statistic = 0.225 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.02
+DBSCAN hyperparameters: epsilon = 0.98 & minimal points = 3
+
+average Silhouette score = 0.636 in the [-1,+1] interval 
+Calinski-Harabasz index = 161.024 in the [0,+∞) interval
+Dunn index = 0.347 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.194 in the [0,+∞) interval
+average Gap statistic = 0.120 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.03
+DBSCAN hyperparameters: epsilon = 0.97 & minimal points = 3
+
+average Silhouette score = 0.529 in the [-1,+1] interval 
+Calinski-Harabasz index = 171.722 in the [0,+∞) interval
+Dunn index = 0.293 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.163 in the [0,+∞) interval
+average Gap statistic = 0.102 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.04
+DBSCAN hyperparameters: epsilon = 0.96 & minimal points = 3
+
+average Silhouette score = 0.575 in the [-1,+1] interval 
+Calinski-Harabasz index = 165.489 in the [0,+∞) interval
+Dunn index = 0.222 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.083 in the [0,+∞) interval
+average Gap statistic = 0.106 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.05
+DBSCAN hyperparameters: epsilon = 0.95 & minimal points = 3
+
+average Silhouette score = 0.675 in the [-1,+1] interval 
+Calinski-Harabasz index = 223.691 in the [0,+∞) interval
+Dunn index = 0.313 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.232 in the [0,+∞) interval
+average Gap statistic = 0.225 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.06
+DBSCAN hyperparameters: epsilon = 0.94 & minimal points = 3
+
+average Silhouette score = 0.548 in the [-1,+1] interval 
+Calinski-Harabasz index = 125.775 in the [0,+∞) interval
+Dunn index = 0.246 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.209 in the [0,+∞) interval
+average Gap statistic = 0.224 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.07
+DBSCAN hyperparameters: epsilon = 0.93 & minimal points = 3
+
+average Silhouette score = 0.314 in the [-1,+1] interval 
+Calinski-Harabasz index = 82.580 in the [0,+∞) interval
+Dunn index = 0.170 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.308 in the [0,+∞) interval
+average Gap statistic = 0.266 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.08
+DBSCAN hyperparameters: epsilon = 0.92 & minimal points = 3
+
+average Silhouette score = 0.590 in the [-1,+1] interval 
+Calinski-Harabasz index = 174.896 in the [0,+∞) interval
+Dunn index = 0.217 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.281 in the [0,+∞) interval
+average Gap statistic = 0.214 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.09
+DBSCAN hyperparameters: epsilon = 0.91 & minimal points = 3
+
+average Silhouette score = 0.580 in the [-1,+1] interval 
+Calinski-Harabasz index = 74.253 in the [0,+∞) interval
+Dunn index = 0.319 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.352 in the [0,+∞) interval
+average Gap statistic = 0.236 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.1
+DBSCAN hyperparameters: epsilon = 0.9 & minimal points = 3
+
+average Silhouette score = 0.576 in the [-1,+1] interval 
+Calinski-Harabasz index = 112.303 in the [0,+∞) interval
+Dunn index = 0.362 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.146 in the [0,+∞) interval
+average Gap statistic = 0.321 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.11
+DBSCAN hyperparameters: epsilon = 0.89 & minimal points = 3
+
+average Silhouette score = 0.552 in the [-1,+1] interval 
+Calinski-Harabasz index = 230.564 in the [0,+∞) interval
+Dunn index = 0.305 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.889 in the [0,+∞) interval
+average Gap statistic = 0.235 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.12
+DBSCAN hyperparameters: epsilon = 0.88 & minimal points = 3
+
+average Silhouette score = 0.388 in the [-1,+1] interval 
+Calinski-Harabasz index = 75.286 in the [0,+∞) interval
+Dunn index = 0.180 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.107 in the [0,+∞) interval
+average Gap statistic = 0.128 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.13
+DBSCAN hyperparameters: epsilon = 0.87 & minimal points = 3
+
+average Silhouette score = 0.524 in the [-1,+1] interval 
+Calinski-Harabasz index = 97.041 in the [0,+∞) interval
+Dunn index = 0.149 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.691 in the [0,+∞) interval
+average Gap statistic = 0.147 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.14
+DBSCAN hyperparameters: epsilon = 0.86 & minimal points = 3
+
+average Silhouette score = 0.428 in the [-1,+1] interval 
+Calinski-Harabasz index = 80.300 in the [0,+∞) interval
+Dunn index = 0.167 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.382 in the [0,+∞) interval
+average Gap statistic = 0.236 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.15
+DBSCAN hyperparameters: epsilon = 0.85 & minimal points = 3
+
+average Silhouette score = 0.468 in the [-1,+1] interval 
+Calinski-Harabasz index = 57.349 in the [0,+∞) interval
+Dunn index = 0.232 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.938 in the [0,+∞) interval
+average Gap statistic = 0.102 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.16
+DBSCAN hyperparameters: epsilon = 0.84 & minimal points = 3
+
+average Silhouette score = 0.646 in the [-1,+1] interval 
+Calinski-Harabasz index = 295.719 in the [0,+∞) interval
+Dunn index = 0.242 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.175 in the [0,+∞) interval
+average Gap statistic = 0.188 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.17
+DBSCAN hyperparameters: epsilon = 0.83 & minimal points = 3
+
+average Silhouette score = 0.510 in the [-1,+1] interval 
+Calinski-Harabasz index = 119.550 in the [0,+∞) interval
+Dunn index = 0.357 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.043 in the [0,+∞) interval
+average Gap statistic = 0.356 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.18
+DBSCAN hyperparameters: epsilon = 0.82 & minimal points = 3
+
+average Silhouette score = 0.554 in the [-1,+1] interval 
+Calinski-Harabasz index = 168.767 in the [0,+∞) interval
+Dunn index = 0.184 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.056 in the [0,+∞) interval
+average Gap statistic = 0.087 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.19
+DBSCAN hyperparameters: epsilon = 0.81 & minimal points = 3
+
+average Silhouette score = 0.620 in the [-1,+1] interval 
+Calinski-Harabasz index = 163.704 in the [0,+∞) interval
+Dunn index = 0.250 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.052 in the [0,+∞) interval
+average Gap statistic = 0.131 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.2
+DBSCAN hyperparameters: epsilon = 0.8 & minimal points = 3
+
+average Silhouette score = 0.258 in the [-1,+1] interval 
+Calinski-Harabasz index = 48.407 in the [0,+∞) interval
+Dunn index = 0.120 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.545 in the [0,+∞) interval
+average Gap statistic = 0.410 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.01
+DBSCAN hyperparameters: epsilon = 0.99 & minimal points = 4
+
+average Silhouette score = 0.594 in the [-1,+1] interval 
+Calinski-Harabasz index = 146.863 in the [0,+∞) interval
+Dunn index = 0.380 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.005 in the [0,+∞) interval
+average Gap statistic = 0.079 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.02
+DBSCAN hyperparameters: epsilon = 0.98 & minimal points = 4
+
+average Silhouette score = 0.513 in the [-1,+1] interval 
+Calinski-Harabasz index = 42.560 in the [0,+∞) interval
+Dunn index = 0.276 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.144 in the [0,+∞) interval
+average Gap statistic = 0.072 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.03
+DBSCAN hyperparameters: epsilon = 0.97 & minimal points = 4
+
+average Silhouette score = 0.438 in the [-1,+1] interval 
+Calinski-Harabasz index = 39.317 in the [0,+∞) interval
+Dunn index = 0.291 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.896 in the [0,+∞) interval
+average Gap statistic = 0.158 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.04
+DBSCAN hyperparameters: epsilon = 0.96 & minimal points = 4
+
+average Silhouette score = 0.307 in the [-1,+1] interval 
+Calinski-Harabasz index = 22.562 in the [0,+∞) interval
+Dunn index = 0.139 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.139 in the [0,+∞) interval
+average Gap statistic = 0.052 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.05
+DBSCAN hyperparameters: epsilon = 0.95 & minimal points = 4
+
+average Silhouette score = 0.249 in the [-1,+1] interval 
+Calinski-Harabasz index = 28.202 in the [0,+∞) interval
+Dunn index = 0.191 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.174 in the [0,+∞) interval
+average Gap statistic = 0.004 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.06
+DBSCAN hyperparameters: epsilon = 0.94 & minimal points = 4
+
+average Silhouette score = 0.464 in the [-1,+1] interval 
+Calinski-Harabasz index = 43.195 in the [0,+∞) interval
+Dunn index = 0.191 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.584 in the [0,+∞) interval
+average Gap statistic = 0.119 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.07
+DBSCAN hyperparameters: epsilon = 0.93 & minimal points = 4
+
+average Silhouette score = 0.105 in the [-1,+1] interval 
+Calinski-Harabasz index = 5.139 in the [0,+∞) interval
+Dunn index = 0.190 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.246 in the [0,+∞) interval
+average Gap statistic = 0.024 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.08
+DBSCAN hyperparameters: epsilon = 0.92 & minimal points = 4
+
+average Silhouette score = 0.535 in the [-1,+1] interval 
+Calinski-Harabasz index = 118.756 in the [0,+∞) interval
+Dunn index = 0.264 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.842 in the [0,+∞) interval
+average Gap statistic = 0.094 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.09
+DBSCAN hyperparameters: epsilon = 0.91 & minimal points = 4
+
+average Silhouette score = 0.411 in the [-1,+1] interval 
+Calinski-Harabasz index = 74.959 in the [0,+∞) interval
+Dunn index = 0.190 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.419 in the [0,+∞) interval
+average Gap statistic = 0.045 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.1
+DBSCAN hyperparameters: epsilon = 0.9 & minimal points = 4
+
+average Silhouette score = 0.426 in the [-1,+1] interval 
+Calinski-Harabasz index = 19.871 in the [0,+∞) interval
+Dunn index = 0.288 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.137 in the [0,+∞) interval
+average Gap statistic = 0.232 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.11
+DBSCAN hyperparameters: epsilon = 0.89 & minimal points = 4
+
+average Silhouette score = 0.298 in the [-1,+1] interval 
+Calinski-Harabasz index = 36.538 in the [0,+∞) interval
+Dunn index = 0.122 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.662 in the [0,+∞) interval
+average Gap statistic = 0.084 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.12
+DBSCAN hyperparameters: epsilon = 0.88 & minimal points = 4
+
+average Silhouette score = 0.365 in the [-1,+1] interval 
+Calinski-Harabasz index = 42.371 in the [0,+∞) interval
+Dunn index = 0.166 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.781 in the [0,+∞) interval
+average Gap statistic = 0.198 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.13
+DBSCAN hyperparameters: epsilon = 0.87 & minimal points = 4
+
+average Silhouette score = 0.345 in the [-1,+1] interval 
+Calinski-Harabasz index = 27.097 in the [0,+∞) interval
+Dunn index = 0.123 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.511 in the [0,+∞) interval
+average Gap statistic = 0.125 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.14
+DBSCAN hyperparameters: epsilon = 0.86 & minimal points = 4
+
+average Silhouette score = 0.443 in the [-1,+1] interval 
+Calinski-Harabasz index = 73.744 in the [0,+∞) interval
+Dunn index = 0.313 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.541 in the [0,+∞) interval
+average Gap statistic = 0.008 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.15
+DBSCAN hyperparameters: epsilon = 0.85 & minimal points = 4
+
+average Silhouette score = 0.229 in the [-1,+1] interval 
+Calinski-Harabasz index = 25.005 in the [0,+∞) interval
+Dunn index = 0.098 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.466 in the [0,+∞) interval
+average Gap statistic = 0.161 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.16
+DBSCAN hyperparameters: epsilon = 0.84 & minimal points = 4
+
+average Silhouette score = 0.311 in the [-1,+1] interval 
+Calinski-Harabasz index = 29.642 in the [0,+∞) interval
+Dunn index = 0.148 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.573 in the [0,+∞) interval
+average Gap statistic = 0.056 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.17
+DBSCAN hyperparameters: epsilon = 0.83 & minimal points = 4
+
+average Silhouette score = 0.199 in the [-1,+1] interval 
+Calinski-Harabasz index = 41.099 in the [0,+∞) interval
+Dunn index = 0.172 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.076 in the [0,+∞) interval
+average Gap statistic = 0.257 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.18
+DBSCAN hyperparameters: epsilon = 0.82 & minimal points = 4
+
+average Silhouette score = 0.430 in the [-1,+1] interval 
+Calinski-Harabasz index = 50.704 in the [0,+∞) interval
+Dunn index = 0.175 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.649 in the [0,+∞) interval
+average Gap statistic = 0.133 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.19
+DBSCAN hyperparameters: epsilon = 0.81 & minimal points = 4
+
+average Silhouette score = 0.473 in the [-1,+1] interval 
+Calinski-Harabasz index = 73.819 in the [0,+∞) interval
+Dunn index = 0.153 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.521 in the [0,+∞) interval
+average Gap statistic = 0.367 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.2
+DBSCAN hyperparameters: epsilon = 0.8 & minimal points = 4
+
+average Silhouette score = 0.289 in the [-1,+1] interval 
+Calinski-Harabasz index = 28.989 in the [0,+∞) interval
+Dunn index = 0.133 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.381 in the [0,+∞) interval
+average Gap statistic = 0.073 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 5 &  min_dist = 0.01
+DBSCAN hyperparameters: epsilon = 0.99 & minimal points = 5
+
+average Silhouette score = 0.260 in the [-1,+1] interval 
+Calinski-Harabasz index = 26.868 in the [0,+∞) interval
+Dunn index = 0.163 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.332 in the [0,+∞) interval
+average Gap statistic = 0.134 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+
+
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 5 &  min_dist = 0.02
+DBSCAN hyperparameters: epsilon = 0.98 & minimal points = 5
+
+average Silhouette score = 0.288 in the [-1,+1] interval 
+Calinski-Harabasz index = 5.029 in the [0,+∞) interval
+Dunn index = 0.174 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.591 in the [0,+∞) interval

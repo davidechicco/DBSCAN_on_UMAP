@@ -1,0 +1,445 @@
+There were 50 or more warnings (use warnings() to see the first 50)
+i2019_diabetes_type1_dataset_preprocessed.csv  :: :: 
+[1] "2024-04-13 15:42:37 CEST"
+UMAP miminal distances to try: [1] 0.001 0.006 0.011 0.016 0.021 0.026 0.031 0.036 0.041 0.046
+UMAP number of n_neighbors to try':[1] 2 3 4 5
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.001
+DBSCAN hyperparameters: epsilon = 0.999 & minimal points = 2
+
+average Silhouette score = 0.973 in the [-1,+1] interval 
+Calinski-Harabasz index = 12501.632 in the [0,+∞) interval
+Dunn index = 6.959 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 29.291 in the [0,+∞) interval
+average Gap statistic = 0.248 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 2 &  min_dist = 0.006
+DBSCAN hyperparameters: epsilon = 0.994 & minimal points = 2
+
+average Silhouette score = 0.966 in the [-1,+1] interval 
+Calinski-Harabasz index = 9068.798 in the [0,+∞) interval
+Dunn index = 3.659 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 22.691 in the [0,+∞) interval
+average Gap statistic = 0.202 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 3
+percentage of data in the 0 noise cluster = 4.48%
+The 0 noise cluster contains too much data: we'll skip this analysis configuration
+Only 1 cluster found by DBSCAN or too much noise: we do not compute the clustering statistics in this case
+number of noise points in the 0 cluster = 2
+percentage of data in the 0 noise cluster = 2.99%
+The 0 noise cluster contains too much data: we'll skip this analysis configuration
+Only 1 cluster found by DBSCAN or too much noise: we do not compute the clustering statistics in this case
+number of noise points in the 0 cluster = 2
+percentage of data in the 0 noise cluster = 2.99%
+The 0 noise cluster contains too much data: we'll skip this analysis configuration
+Only 1 cluster found by DBSCAN or too much noise: we do not compute the clustering statistics in this case
+number of noise points in the 0 cluster = 2
+percentage of data in the 0 noise cluster = 2.99%
+The 0 noise cluster contains too much data: we'll skip this analysis configuration
+Only 1 cluster found by DBSCAN or too much noise: we do not compute the clustering statistics in this case
+number of noise points in the 0 cluster = 2
+percentage of data in the 0 noise cluster = 2.99%
+The 0 noise cluster contains too much data: we'll skip this analysis configuration
+Only 1 cluster found by DBSCAN or too much noise: we do not compute the clustering statistics in this case
+number of noise points in the 0 cluster = 2
+percentage of data in the 0 noise cluster = 2.99%
+The 0 noise cluster contains too much data: we'll skip this analysis configuration
+Only 1 cluster found by DBSCAN or too much noise: we do not compute the clustering statistics in this case
+number of noise points in the 0 cluster = 2
+percentage of data in the 0 noise cluster = 2.99%
+The 0 noise cluster contains too much data: we'll skip this analysis configuration
+Only 1 cluster found by DBSCAN or too much noise: we do not compute the clustering statistics in this case
+number of noise points in the 0 cluster = 2
+percentage of data in the 0 noise cluster = 2.99%
+The 0 noise cluster contains too much data: we'll skip this analysis configuration
+Only 1 cluster found by DBSCAN or too much noise: we do not compute the clustering statistics in this case
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.001
+DBSCAN hyperparameters: epsilon = 0.999 & minimal points = 3
+
+average Silhouette score = 0.667 in the [-1,+1] interval 
+Calinski-Harabasz index = 442.745 in the [0,+∞) interval
+Dunn index = 0.307 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.956 in the [0,+∞) interval
+average Gap statistic = 0.084 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.006
+DBSCAN hyperparameters: epsilon = 0.994 & minimal points = 3
+
+average Silhouette score = 0.705 in the [-1,+1] interval 
+Calinski-Harabasz index = 307.479 in the [0,+∞) interval
+Dunn index = 0.365 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.768 in the [0,+∞) interval
+average Gap statistic = 0.198 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.011
+DBSCAN hyperparameters: epsilon = 0.989 & minimal points = 3
+
+average Silhouette score = 0.517 in the [-1,+1] interval 
+Calinski-Harabasz index = 115.804 in the [0,+∞) interval
+Dunn index = 0.269 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.035 in the [0,+∞) interval
+average Gap statistic = 0.330 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.016
+DBSCAN hyperparameters: epsilon = 0.984 & minimal points = 3
+
+average Silhouette score = 0.423 in the [-1,+1] interval 
+Calinski-Harabasz index = 81.881 in the [0,+∞) interval
+Dunn index = 0.223 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.717 in the [0,+∞) interval
+average Gap statistic = 0.075 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 2
+percentage of data in the 0 noise cluster = 2.99%
+The 0 noise cluster contains too much data: we'll skip this analysis configuration
+Only 1 cluster found by DBSCAN or too much noise: we do not compute the clustering statistics in this case
+number of noise points in the 0 cluster = 4
+percentage of data in the 0 noise cluster = 5.97%
+The 0 noise cluster contains too much data: we'll skip this analysis configuration
+Only 1 cluster found by DBSCAN or too much noise: we do not compute the clustering statistics in this case
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.031
+DBSCAN hyperparameters: epsilon = 0.969 & minimal points = 3
+
+average Silhouette score = 0.607 in the [-1,+1] interval 
+Calinski-Harabasz index = 244.573 in the [0,+∞) interval
+Dunn index = 0.281 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.163 in the [0,+∞) interval
+average Gap statistic = 0.253 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.036
+DBSCAN hyperparameters: epsilon = 0.964 & minimal points = 3
+
+average Silhouette score = 0.640 in the [-1,+1] interval 
+Calinski-Harabasz index = 227.745 in the [0,+∞) interval
+Dunn index = 0.323 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.218 in the [0,+∞) interval
+average Gap statistic = 0.140 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.041
+DBSCAN hyperparameters: epsilon = 0.959 & minimal points = 3
+
+average Silhouette score = 0.528 in the [-1,+1] interval 
+Calinski-Harabasz index = 115.254 in the [0,+∞) interval
+Dunn index = 0.233 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.546 in the [0,+∞) interval
+average Gap statistic = 0.160 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 3 &  min_dist = 0.046
+DBSCAN hyperparameters: epsilon = 0.954 & minimal points = 3
+
+average Silhouette score = 0.481 in the [-1,+1] interval 
+Calinski-Harabasz index = 50.882 in the [0,+∞) interval
+Dunn index = 0.156 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.873 in the [0,+∞) interval
+average Gap statistic = 0.080 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.001
+DBSCAN hyperparameters: epsilon = 0.999 & minimal points = 4
+
+average Silhouette score = 0.524 in the [-1,+1] interval 
+Calinski-Harabasz index = 56.250 in the [0,+∞) interval
+Dunn index = 0.290 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.394 in the [0,+∞) interval
+average Gap statistic = 0.152 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.006
+DBSCAN hyperparameters: epsilon = 0.994 & minimal points = 4
+
+average Silhouette score = 0.313 in the [-1,+1] interval 
+Calinski-Harabasz index = 20.123 in the [0,+∞) interval
+Dunn index = 0.152 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.324 in the [0,+∞) interval
+average Gap statistic = 0.038 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.011
+DBSCAN hyperparameters: epsilon = 0.989 & minimal points = 4
+
+average Silhouette score = 0.493 in the [-1,+1] interval 
+Calinski-Harabasz index = 24.953 in the [0,+∞) interval
+Dunn index = 0.320 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.425 in the [0,+∞) interval
+average Gap statistic = 0.216 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.016
+DBSCAN hyperparameters: epsilon = 0.984 & minimal points = 4
+
+average Silhouette score = 0.527 in the [-1,+1] interval 
+Calinski-Harabasz index = 84.778 in the [0,+∞) interval
+Dunn index = 0.274 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.399 in the [0,+∞) interval
+average Gap statistic = 0.111 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.021
+DBSCAN hyperparameters: epsilon = 0.979 & minimal points = 4
+
+average Silhouette score = 0.340 in the [-1,+1] interval 
+Calinski-Harabasz index = 35.319 in the [0,+∞) interval
+Dunn index = 0.187 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.855 in the [0,+∞) interval
+average Gap statistic = 0.025 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.026
+DBSCAN hyperparameters: epsilon = 0.974 & minimal points = 4
+
+average Silhouette score = 0.472 in the [-1,+1] interval 
+Calinski-Harabasz index = 53.483 in the [0,+∞) interval
+Dunn index = 0.235 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.173 in the [0,+∞) interval
+average Gap statistic = 0.072 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.031
+DBSCAN hyperparameters: epsilon = 0.969 & minimal points = 4
+
+average Silhouette score = 0.319 in the [-1,+1] interval 
+Calinski-Harabasz index = 28.606 in the [0,+∞) interval
+Dunn index = 0.177 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.307 in the [0,+∞) interval
+average Gap statistic = 0.125 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.036
+DBSCAN hyperparameters: epsilon = 0.964 & minimal points = 4
+
+average Silhouette score = 0.535 in the [-1,+1] interval 
+Calinski-Harabasz index = 111.313 in the [0,+∞) interval
+Dunn index = 0.250 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.594 in the [0,+∞) interval
+average Gap statistic = 0.062 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.041
+DBSCAN hyperparameters: epsilon = 0.959 & minimal points = 4
+
+average Silhouette score = 0.376 in the [-1,+1] interval 
+Calinski-Harabasz index = 49.436 in the [0,+∞) interval
+Dunn index = 0.174 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.618 in the [0,+∞) interval
+average Gap statistic = 0.025 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 4 &  min_dist = 0.046
+DBSCAN hyperparameters: epsilon = 0.954 & minimal points = 4
+
+average Silhouette score = 0.547 in the [-1,+1] interval 
+Calinski-Harabasz index = 94.056 in the [0,+∞) interval
+Dunn index = 0.215 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.679 in the [0,+∞) interval
+average Gap statistic = 0.153 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 4
+percentage of data in the 0 noise cluster = 5.97%
+The 0 noise cluster contains too much data: we'll skip this analysis configuration
+Only 1 cluster found by DBSCAN or too much noise: we do not compute the clustering statistics in this case
+number of noise points in the 0 cluster = 4
+percentage of data in the 0 noise cluster = 5.97%
+The 0 noise cluster contains too much data: we'll skip this analysis configuration
+Only 1 cluster found by DBSCAN or too much noise: we do not compute the clustering statistics in this case
+number of noise points in the 0 cluster = 4
+percentage of data in the 0 noise cluster = 5.97%
+The 0 noise cluster contains too much data: we'll skip this analysis configuration
+Only 1 cluster found by DBSCAN or too much noise: we do not compute the clustering statistics in this case
+number of noise points in the 0 cluster = 8
+percentage of data in the 0 noise cluster = 11.94%
+The 0 noise cluster contains too much data: we'll skip this analysis configuration
+Only 1 cluster found by DBSCAN or too much noise: we do not compute the clustering statistics in this case
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 5 &  min_dist = 0.021
+DBSCAN hyperparameters: epsilon = 0.979 & minimal points = 5
+
+average Silhouette score = 0.221 in the [-1,+1] interval 
+Calinski-Harabasz index = 22.900 in the [0,+∞) interval
+Dunn index = 0.145 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.055 in the [0,+∞) interval
+average Gap statistic = 0.012 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 4
+percentage of data in the 0 noise cluster = 5.97%
+The 0 noise cluster contains too much data: we'll skip this analysis configuration
+Only 1 cluster found by DBSCAN or too much noise: we do not compute the clustering statistics in this case
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 5 &  min_dist = 0.031
+DBSCAN hyperparameters: epsilon = 0.969 & minimal points = 5
+
+average Silhouette score = 0.592 in the [-1,+1] interval 
+Calinski-Harabasz index = 72.611 in the [0,+∞) interval
+Dunn index = 0.350 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 2.482 in the [0,+∞) interval
+average Gap statistic = 0.171 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 4
+percentage of data in the 0 noise cluster = 5.97%
+The 0 noise cluster contains too much data: we'll skip this analysis configuration
+Only 1 cluster found by DBSCAN or too much noise: we do not compute the clustering statistics in this case
+number of noise points in the 0 cluster = 0
+percentage of data in the 0 noise cluster = 0.00%
+ ~ :  ~ :  ~ :  ~ : ~ DBSCAN results on the UMAP projection of the EHRs data  ~ :  ~ :  ~ :  ~ : ~
+
+UMAP hyperparameters: number of neighbors = 5 &  min_dist = 0.041
+DBSCAN hyperparameters: epsilon = 0.959 & minimal points = 5
+
+average Silhouette score = 0.314 in the [-1,+1] interval 
+Calinski-Harabasz index = 32.891 in the [0,+∞) interval
+Dunn index = 0.160 in the [0,+∞) interval
+reciprocal Davies-Bouldin index = 1.521 in the [0,+∞) interval
+average Gap statistic = 0.031 in the [0,+∞) interval
+(all these metrics: the higher, the better)
+ ~ :  ~ :  ~ :  ~ : ~ The end  ~ :  ~ :  ~ :  ~ : ~
+number of noise points in the 0 cluster = 6
+percentage of data in the 0 noise cluster = 8.96%
+The 0 noise cluster contains too much data: we'll skip this analysis configuration
+There's only 1 cluster: we'll skip this analysis configuration
+Only 1 cluster found by DBSCAN or too much noise: we do not compute the clustering statistics in this case
+      UMAP neighbors UMAP min dist DBSCAN eps DBSCAN min points Silhouette
+ [1,]              2         0.001      0.999                 2  0.9729372
+ [2,]              2         0.006      0.994                 2  0.9664608
+ [3,]              3         0.001      0.999                 3  0.6671915
+ [4,]              3         0.006      0.994                 3  0.7053510
+ [5,]              3         0.011      0.989                 3  0.5169670
+ [6,]              3         0.016      0.984                 3  0.4227869
+ [7,]              3         0.031      0.969                 3  0.6070019
+ [8,]              3         0.036      0.964                 3  0.6397982
+ [9,]              3         0.041      0.959                 3  0.5276316
+[10,]              3         0.046      0.954                 3  0.4805958
+[11,]              4         0.001      0.999                 4  0.5240245
+[12,]              4         0.006      0.994                 4  0.3128876
+[13,]              4         0.011      0.989                 4  0.4932048
+[14,]              4         0.016      0.984                 4  0.5272518
+[15,]              4         0.021      0.979                 4  0.3399304
+[16,]              4         0.026      0.974                 4  0.4722686
+[17,]              4         0.031      0.969                 4  0.3192075
+[18,]              4         0.036      0.964                 4  0.5350775
+[19,]              4         0.041      0.959                 4  0.3764860
+[20,]              4         0.046      0.954                 4  0.5472578
+[21,]              5         0.021      0.979                 5  0.2211279
+[22,]              5         0.031      0.969                 5  0.5919657
+[23,]              5         0.041      0.959                 5  0.3143796
+      Calinski-Harabasz recipr Davies-Bouldin      Dunn        Gap
+ [1,]       12501.63208             29.291299 6.9594522 0.24752771
+ [2,]        9068.79770             22.691449 3.6591155 0.20217396
+ [3,]         442.74510              2.955956 0.3074354 0.08359578
+ [4,]         307.47934              2.768075 0.3649373 0.19820022
+ [5,]         115.80367              2.034705 0.2685381 0.33030995
+ [6,]          81.88098              1.716621 0.2226602 0.07546502
+ [7,]         244.57316              2.162595 0.2808941 0.25283274
+ [8,]         227.74502              2.218426 0.3232912 0.13970069
+ [9,]         115.25386              1.546080 0.2329342 0.16032509
+[10,]          50.88166              1.873162 0.1558230 0.08036380
+[11,]          56.24980              2.394417 0.2898265 0.15187115
+[12,]          20.12269              1.324484 0.1517702 0.03757791
+[13,]          24.95254              2.425092 0.3204836 0.21605183
+[14,]          84.77829              1.399463 0.2739408 0.11058209
+[15,]          35.31876              1.855481 0.1869848 0.02483027
+[16,]          53.48293              2.172802 0.2354508 0.07163948
+[17,]          28.60573              1.307194 0.1769070 0.12534177
+[18,]         111.31295              1.594282 0.2503431 0.06228370
+[19,]          49.43607              1.617578 0.1741083 0.02479512
+[20,]          94.05559              1.678767 0.2146208 0.15311711
+[21,]          22.90025              1.054973 0.1454536 0.01174038
+[22,]          72.61057              2.482334 0.3495896 0.17092395
+[23,]          32.89130              1.520966 0.1604513 0.03101916
+ // The end of the script // 
