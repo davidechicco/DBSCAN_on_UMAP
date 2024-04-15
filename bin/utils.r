@@ -9,6 +9,29 @@ p_load("easypackages", "ggplot2", "lubridate")
 # new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 # if(length(new.packages)) install.packages(new.packages)
 
+# let's compute time
+global_start_time <- Sys.time()
+
+# function that converts a string
+# https://stats.stackexchange.com/a/17995
+fromStringToNumeric <- function(x_array) {
+
+   new_x <- as.factor(x_array)
+   levels(new_x) <- 1:length(levels(new_x))
+   new_x_num <- as.numeric(new_x)
+
+   return (new_x_num)
+}
+
+# this_moment_formatted
+this_moment_formatted <- function(){
+
+  varTime0 <- gsub(":", "-", toString(Sys.time()))
+  varTime1 <- gsub(" ", "_", varTime0)
+  varTime2 <- gsub("\\.", "_", varTime1)
+  return(varTime2 %>% toString())
+
+}
 
 
 # normalized()
